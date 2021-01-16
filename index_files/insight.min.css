@@ -1,0 +1,54 @@
+.ins-section-container {
+	background: rgb(247, 247, 247); position: relative;
+}
+.ins-section {
+	line-height: 16px; font-size: 14px;
+}
+.ins-section .ins-search-item {
+	padding: 8px 15px;
+}
+.ins-section .ins-section-header {
+	padding: 8px 15px;
+}
+.ins-section .ins-section-header {
+	color: rgb(154, 154, 154); border-bottom-color: rgb(226, 226, 226); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.ins-section .ins-slug {
+	color: rgb(154, 154, 154); margin-left: 5px;
+}
+.ins-section .ins-slug::before {
+	content: "(";
+}
+.ins-section .ins-slug::after {
+	content: ")";
+}
+.ins-section .ins-search-item .ins-search-preview {
+	overflow: hidden; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.ins-section .ins-search-item header {
+	overflow: hidden; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.ins-section .ins-search-item header .ins-title {
+	margin-left: 8px;
+}
+.ins-section .ins-search-item .ins-search-preview {
+	margin: 5px 0px 0px 20px; height: 15px; color: rgb(154, 154, 154); font-size: 12px;
+}
+.ins-section .active.ins-search-item {
+	background: rgb(50, 115, 220); color: rgb(255, 255, 255);
+}
+.ins-section .ins-search-item:hover {
+	background: rgb(50, 115, 220); color: rgb(255, 255, 255);
+}
+.ins-section .active.ins-search-item .ins-search-preview {
+	color: rgb(255, 255, 255);
+}
+.ins-section .active.ins-search-item .ins-slug {
+	color: rgb(255, 255, 255);
+}
+.ins-section .ins-search-item:hover .ins-search-preview {
+	color: rgb(255, 255, 255);
+}
+.ins-section .ins-search-item:hover .ins-slug {
+	color: rgb(255, 255, 255);
+}

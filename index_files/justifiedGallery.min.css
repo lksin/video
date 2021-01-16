@@ -1,0 +1,66 @@
+.justified-gallery {
+	width: 100%; overflow: hidden; position: relative;
+}
+.justified-gallery > a {
+	margin: 0px; padding: 0px; overflow: hidden; display: inline-block; position: absolute; opacity: 0.1;
+}
+.justified-gallery > div {
+	margin: 0px; padding: 0px; overflow: hidden; display: inline-block; position: absolute; opacity: 0.1;
+}
+.justified-gallery > figure {
+	margin: 0px; padding: 0px; overflow: hidden; display: inline-block; position: absolute; opacity: 0.1;
+}
+.justified-gallery > a > img {
+	margin: 0px; padding: 0px; border: currentColor; border-image: none; left: 50%; top: 50%; position: absolute; opacity: 0;
+}
+.justified-gallery > div > img {
+	margin: 0px; padding: 0px; border: currentColor; border-image: none; left: 50%; top: 50%; position: absolute; opacity: 0;
+}
+.justified-gallery > figure > img {
+	margin: 0px; padding: 0px; border: currentColor; border-image: none; left: 50%; top: 50%; position: absolute; opacity: 0;
+}
+.justified-gallery > a > a > img {
+	margin: 0px; padding: 0px; border: currentColor; border-image: none; left: 50%; top: 50%; position: absolute; opacity: 0;
+}
+.justified-gallery > div > a > img {
+	margin: 0px; padding: 0px; border: currentColor; border-image: none; left: 50%; top: 50%; position: absolute; opacity: 0;
+}
+.justified-gallery > figure > a > img {
+	margin: 0px; padding: 0px; border: currentColor; border-image: none; left: 50%; top: 50%; position: absolute; opacity: 0;
+}
+.justified-gallery > a > .caption {
+	margin: 0px; padding: 5px; left: 0px; right: 0px; bottom: 0px; color: white; font-family: sans-serif; font-size: 12px; font-weight: 300; display: none; position: absolute; background-color: rgb(0, 0, 0);
+}
+.justified-gallery > div > .caption {
+	margin: 0px; padding: 5px; left: 0px; right: 0px; bottom: 0px; color: white; font-family: sans-serif; font-size: 12px; font-weight: 300; display: none; position: absolute; background-color: rgb(0, 0, 0);
+}
+.justified-gallery > figure > .caption {
+	margin: 0px; padding: 5px; left: 0px; right: 0px; bottom: 0px; color: white; font-family: sans-serif; font-size: 12px; font-weight: 300; display: none; position: absolute; background-color: rgb(0, 0, 0);
+}
+.justified-gallery > a > .caption-visible.caption {
+	transition:opacity 500ms ease-in; opacity: 0.7; -webkit-transition: opacity 500ms ease-in; -o-transition: opacity 500ms ease-in; -moz-transition: opacity 500ms ease-in;
+}
+.justified-gallery > div > .caption-visible.caption {
+	transition:opacity 500ms ease-in; opacity: 0.7; -webkit-transition: opacity 500ms ease-in; -o-transition: opacity 500ms ease-in; -moz-transition: opacity 500ms ease-in;
+}
+.justified-gallery > figure > .caption-visible.caption {
+	transition:opacity 500ms ease-in; opacity: 0.7; -webkit-transition: opacity 500ms ease-in; -o-transition: opacity 500ms ease-in; -moz-transition: opacity 500ms ease-in;
+}
+.justified-gallery > .entry-visible {
+	background: none; opacity: 1;
+}
+.justified-gallery > .entry-visible > img {
+	transition:opacity 500ms ease-in; opacity: 1; -webkit-transition: opacity 500ms ease-in; -o-transition: opacity 500ms ease-in; -moz-transition: opacity 500ms ease-in;
+}
+.justified-gallery > .entry-visible > a > img {
+	transition:opacity 500ms ease-in; opacity: 1; -webkit-transition: opacity 500ms ease-in; -o-transition: opacity 500ms ease-in; -moz-transition: opacity 500ms ease-in;
+}
+.justified-gallery > .jg-filtered {
+	display: none;
+}
+.justified-gallery > .spinner {
+	padding: 10px 0px; left: 50%; bottom: 0px; margin-left: -24px; position: absolute; opacity: 1;
+}
+.justified-gallery > .spinner > span {
+	margin: 0px 4px; border-radius: 6px; width: 8px; height: 8px; display: inline-block; opacity: 0; background-color: rgb(0, 0, 0);
+}
